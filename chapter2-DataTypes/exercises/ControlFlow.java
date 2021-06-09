@@ -13,13 +13,7 @@ public class ControlFlow {
         }
     }
 
-    private static int isEven (Integer[] args, input) {
+    private static boolean isEven (int input) {
         return(input % 2 == 0);
     }
 }
-// find a way to read in user input
-
-// write a method that will check if a number is odd or even
-// (assume user only ever enters integers)
-
-// print the answer to the console
